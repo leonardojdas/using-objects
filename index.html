@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>A3</title>
+        <script src="scripts/LeonardoA3.js"></script>
+        <link href="style/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header">
+            A3 16: - Using Objects (Blog Posts)<br>
+            <span>NBCC-ITPA:SJ-PROG1128-JavaScript Programming</span>
+        </div>
+
+        <div id="containerSearch">
+            <div>
+                <span>Search for title</span>
+                <input type="text" id="searchTitle" class="btn-search" placeholder="Search for title">
+            </div>
+            <div>
+                <span>Search for tags</span>
+                <input type="text" id="searchTags" class="btn-search" placeholder="Search for tags">
+            </div>
+    
+            <div id="containerDate">
+                <div>
+                    <span>From Date</span>
+                    <input type="date" id="dateFrom">
+                </div>
+                <div>
+                    <span>To Date</span>
+                    <div>
+                        <input type="date" id="dateTo">
+                    </div>
+                </div>
+            </div>
+    
+            <div id="containerCheckbox">
+                <span>Has Comments <input type="checkbox" id="hasComments"></span>
+                <span>Has Likes <input type="checkbox" id="hasLikes"></span>
+                <span>Has Shares <input type="checkbox" id="hasShares"></span>
+            </div>
+    
+            <div id="containerButtons">
+                <button id="btnSearch">Search</button>
+                <button id="btnReset">Reset</button>
+            </div>
+
+        </div>
+
+        <div id="containerPosts">
+            <div id="contentTotalPosts">
+                Total Posts: <span id="totalPosts"></span>
+            </div>
+
+            <span id="contentPosts"></span>
+        </div>
+
+        <div id="footer">
+            <div>Created by <span class="fw-bolder">Leonardo de Andrade</span></div>
+            <div>leonardojdas@gmail.com</div>
+        </div>
+    </body>
+</html>
